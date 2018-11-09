@@ -1,52 +1,87 @@
 *{
     margin: 0;
 }
+body{
+    background-color: #42f4b0;
+}
 nav {
-    width: 30%;
+    width: 400px;
     height: 100%;
     display: flex;
     position: fixed;
     background-color: #001f3f;
     text-align: center;
 }
+#info{
+    font-size: 20px;
+    background-color: #7FDBFF;
+    height: 25%;
+    width: 400px;
+    color: #001f3f;
+}
+#info h1{
+    font-size: 50px;
+}
+#info a{
+    text-decoration: none;
+}
 ul{
-    margin-top: 20%;
+    position:absolute;
+    margin-top: 75%;
     list-style-type: none;
-    margin-left: 15%;
+    margin-left: 20%;
+    height: 40%;
+   
 }
 li a {
     display: block;
     text-decoration: none;
     color: #7FDBFF;
-    font-size: 50px;
+    font-size: 25px;
     padding: 5px 16px;
     margin-bottom: 50%;
 }
+li a:hover{
+    color: #27d192;
+}
 #content {
-    width: 70%;
+    width: 79%;
     float: right;
 }
 #about-me{
-    text-align: center;  
-    height: 50%;
-    padding-top: 70%;
+    width: 100%;
+    float: right;
+    background-color:#27d192;
+    height: 100vh;
+}
+#about-me h1{
+    text-align: center;
+    
+}
+#technologies{
+    width: 100%;
+    float: right;
     background-color: green;
-  }
-  #technologies{
-    text-align: center;  
-    height: 50%;
-    padding-top: 70%;
+    height: 100vh;
+}
+#technologies h1{
+    text-align: center;
+}
+#projects{
+    width: 100%;
+    float: right;
     background-color: green;
-  }
-  #projects{
-    text-align: center;  
-    height: 50%;
-    padding-top: 70%;
+    height: 100vh;
+}
+#projects h1{
+    text-align: center;
+}
+#resume{
+    width: 100%;
+    float: right;
     background-color: green;
-  }
-  #contact{
-    text-align: center;  
-    height: 50%;
-    padding-top: 70%;
-    background-color: green;
-  }
+    height: 100vh;
+}
+#resume h1{
+    text-align: center;
+}
