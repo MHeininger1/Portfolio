@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+}
+nav {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    background-color: #001f3f;
+    text-align: center;
+}
+ul{
+    margin-top: 20%;
+    list-style-type: none;
+    margin-left: 15%;
+}
+li a {
+    display: block;
+    text-decoration: none;
+    color: #7FDBFF;
+    font-size: 50px;
+    padding: 5px 16px;
+    margin-bottom: 50%;
+}
+#content {
+    width: 70%;
+    float: right;
+}
+#about-me{
+    text-align: center;  
+    height: 50%;
+    padding-top: 70%;
+    background-color: green;
+  }
+  #technologies{
+    text-align: center;  
+    height: 50%;
+    padding-top: 70%;
+    background-color: green;
+  }
+  #projects{
+    text-align: center;  
+    height: 50%;
+    padding-top: 70%;
+    background-color: green;
+  }
+  #contact{
+    text-align: center;  
+    height: 50%;
+    padding-top: 70%;
+    background-color: green;
+  }
